@@ -6,16 +6,17 @@ package:
 
 source:
   fn: cloudpickle-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/c/cloudpickle/cloudpickle-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-{{ version }}.tar.gz
   md5: d6c92acdfa253a50b2ef86a1b6443e39
 
 build:
-  number: 1
+  number: 2
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
+    - setuptools
 
   run:
     - python
@@ -26,8 +27,8 @@ test:
 
 about:
   home: https://github.com/cloudpipe/cloudpickle
-  license: BSD License
-  summary: 'Extended pickling support for Python objects'
+  license: BSD 3-Clause
+  summary: Extended pickling support for Python objects
 
 extra:
   recipe-maintainers:
