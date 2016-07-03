@@ -3,7 +3,7 @@ About cloudpickle
 
 Home: https://github.com/cloudpipe/cloudpickle
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
