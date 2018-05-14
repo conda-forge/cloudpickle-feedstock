@@ -17,12 +17,15 @@ supported by the default pickle module from the Python standard library.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cloudpickle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cloudpickle-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cloudpickle-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cloudpickle-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cloudpickle/badges/version.svg)](https://anaconda.org/conda-forge/cloudpickle)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cloudpickle/badges/downloads.svg)](https://anaconda.org/conda-forge/cloudpickle)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cloudpickle-green.svg)](https://anaconda.org/conda-forge/cloudpickle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cloudpickle.svg)](https://anaconda.org/conda-forge/cloudpickle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cloudpickle.svg)](https://anaconda.org/conda-forge/cloudpickle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cloudpickle.svg)](https://anaconda.org/conda-forge/cloudpickle) |
 
 Installing cloudpickle
 ======================
