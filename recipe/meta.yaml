@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: cloudpickle
@@ -7,7 +7,7 @@ package:
 source:
   fn: cloudpickle-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-{{ version }}.tar.gz
-  sha256: 2bff291af542a8121e8d0d7d156447894f253ec8a51def86292727cd0b241ab0
+  sha256: f169a8523a40eb0a3452e1878aac31da6759409fbafa51dd50d89d4a6b42bcf1
 
 build:
   number: 0
