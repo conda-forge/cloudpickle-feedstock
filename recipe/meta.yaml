@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/cloudpipe/cloudpickle
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Extended pickling support for Python objects
   description: |
