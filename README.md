@@ -3,9 +3,9 @@ About cloudpickle
 
 Home: https://github.com/cloudpipe/cloudpickle
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extended pickling support for Python objects
 
