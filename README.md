@@ -1,17 +1,17 @@
-About cloudpickle
-=================
+About cloudpickle-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cloudpickle-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cloudpipe/cloudpickle
 
 Package license: BSD-3-Clause
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cloudpickle-feedstock/blob/main/LICENSE.txt)
-
 Summary: Extended pickling support for Python objects
 
 Development: https://github.com/cloudpipe/cloudpickle
 
-Documentation: https://pypi.python.org/pypi/cloudpickle/2.2.1
+Documentation: https://pypi.python.org/pypi/cloudpickle/3.0.0
 
 cloudpickle is extended pickling support for Python objects.
 cloudpickle makes it possible to serialize Python constructs not
