@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - flit_core
+    - flit-core
 
   run:
     - python >=3.8
