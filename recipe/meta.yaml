@@ -30,7 +30,7 @@ test:
 about:
   home: https://github.com/cloudpipe/cloudpickle
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.txt
   summary: Extended pickling support for Python objects
   description: |
     cloudpickle is extended pickling support for Python objects.
