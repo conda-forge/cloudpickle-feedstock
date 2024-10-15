@@ -158,6 +158,3 @@ Feedstock Maintainers
 * [@ogrisel](https://github.com/ogrisel/)
 * [@rgbkrk](https://github.com/rgbkrk/)
 
-
-<!-- dummy commit to enable rerendering -->
-
