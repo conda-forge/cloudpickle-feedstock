@@ -24,8 +24,12 @@ requirements:
     - python >=3.8
 
 test:
+  requires:
+    - pip
   imports:
     - cloudpickle
+  commands:
+    - pip check
 
 about:
   home: https://github.com/cloudpipe/cloudpickle
