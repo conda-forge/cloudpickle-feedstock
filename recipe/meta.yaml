@@ -6,26 +6,27 @@ package:
 
 source:
   fn: cloudpickle-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/c/cloudpickle/cloudpickle-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/c/cloudpickle/cloudpickle-{{ version }}.tar.gz
   sha256: 81a929b6e3c7335c863c771d673d105f02efdb89dfaba0c90495d1c64796601b
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - flit-core
 
   run:
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
   requires:
     - pip
+    - python {{ python_min }}
   imports:
     - cloudpickle
   commands:
