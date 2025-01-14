@@ -11,7 +11,7 @@ Summary: Extended pickling support for Python objects
 
 Development: https://github.com/cloudpipe/cloudpickle
 
-Documentation: https://pypi.python.org/pypi/cloudpickle/3.1.0
+Documentation: https://pypi.python.org/pypi/cloudpickle/3.1.1
 
 cloudpickle is extended pickling support for Python objects.
 cloudpickle makes it possible to serialize Python constructs not
